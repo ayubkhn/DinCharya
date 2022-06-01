@@ -3,18 +3,83 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.khntech.dietchart">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_launcher_background"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_launcher_foreground"
+
         android:supportsRtl="true"
         android:theme="@style/Theme.DietChart"
+        android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".normalType2"
+            android:exported="false" />
+        <activity
+            android:name=".NormalNor"
+            android:exported="false" />
+        <activity
+            android:name=".LazyTypeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NormalTypeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AngryTypeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LazyGainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LazyLoseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NormalGainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NormalLoseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AngryGainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_angry_gain"
+            android:theme="@style/Theme.DietChart.NoActionBar" />
+        <activity
+            android:name=".AngryLoseActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".LazyNormalActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.DietChart.NoActionBar" />
+        <activity
+            android:name=".AngryNormalActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.DietChart.NoActionBar" />
+        <activity
+            android:name=".NatureActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.DietChart.NoActionBar" />
+        <activity
+            android:name=".FragmentActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.DietChart.NoActionBar" />
+        <activity
+            android:name=".RegisteredActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.DietChart.NoActionBar" />
+        <activity
+            android:name=".Page1Activity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.DietChart.NoActionBar">
@@ -24,6 +89,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.DietChart.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.DietChart.NoActionBar" />
     </application>
 
 </manifest>

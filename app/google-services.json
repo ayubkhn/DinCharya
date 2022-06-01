@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "666729958478",
+    "project_id": "fir-phone-authentication-1c8cb",
+    "storage_bucket": "fir-phone-authentication-1c8cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666729958478:android:dd9bd1510e05968468c71f",
+        "android_client_info": {
+          "package_name": "com.khntech.dietchart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666729958478-4k52jkstih9fjgb3nu3sui26isjnqkte.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.khntech.dietchart",
+            "certificate_hash": "95ca946b4fac3d3d4d2344a99f99b3767938f670"
+          }
+        },
+        {
+          "client_id": "666729958478-7dj4j4b4pvsg773q85nou2s77fla8hv9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSEmkVU9kc6Ywpldy3lAvy_dmd3Ed0SA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666729958478-7dj4j4b4pvsg773q85nou2s77fla8hv9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
