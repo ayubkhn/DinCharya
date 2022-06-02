@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Page1Activity">
+    tools:context=".login.Page1Activity">
 
     <TextView
         android:id="@+id/mainText"

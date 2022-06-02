@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FragmentActivity">
+    tools:context=".homepage.FragmentActivity">
 
     <TextView
         android:id="@+id/welcomeTxt"
@@ -49,7 +49,7 @@
 
         <fragment
             android:id="@+id/dietChartViewPager"
-            android:name="com.khntech.dietchart.DietPlanFragment"
+            android:name="com.khntech.dietchart.dietplans.DietPlanFragment"
             android:layout_width="336dp"
             android:layout_height="426dp"
             android:layout_marginTop="40dp"

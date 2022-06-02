@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NatureActivity">
+    tools:context=".dietplans.NatureActivity">
 
     <TextView
         android:id="@+id/textView"

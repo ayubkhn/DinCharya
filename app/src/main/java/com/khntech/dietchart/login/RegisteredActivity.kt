@@ -1,4 +1,4 @@
-package com.khntech.dietchart
+package com.khntech.dietchart.login
 
 import android.content.Context
 import android.content.Intent

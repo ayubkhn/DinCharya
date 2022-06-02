@@ -1,9 +1,10 @@
-package com.khntech.dietchart
+package com.khntech.dietchart.angry
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.khntech.dietchart.R
 
 class AngryTypeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

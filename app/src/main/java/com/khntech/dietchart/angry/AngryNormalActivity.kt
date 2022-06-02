@@ -1,11 +1,12 @@
-package com.khntech.dietchart
+package com.khntech.dietchart.angry
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.khntech.dietchart.R
 
-class NormalLoseActivity : AppCompatActivity() {
+class AngryNormalActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_normal_lose)
+        setContentView(R.layout.activity_angry_normal_activity)
     }
 }

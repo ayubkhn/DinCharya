@@ -1,4 +1,4 @@
-package com.khntech.dietchart
+package com.khntech.dietchart.login
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -8,6 +8,8 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
+import com.khntech.dietchart.homepage.FragmentActivity
+import com.khntech.dietchart.R
 
 class Page1Activity : AppCompatActivity() {
 

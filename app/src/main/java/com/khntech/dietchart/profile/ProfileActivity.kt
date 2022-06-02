@@ -1,4 +1,4 @@
-package com.khntech.dietchart
+package com.khntech.dietchart.profile
 
 import android.content.Context
 import android.content.Intent
@@ -7,6 +7,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.khntech.dietchart.databinding.ActivityProfileBinding
+import com.khntech.dietchart.login.Page1Activity
 
 class ProfileActivity : AppCompatActivity() {
 
@@ -23,21 +24,6 @@ class ProfileActivity : AppCompatActivity() {
         binding.nameSavedTxt.setText(name.toString())
 
 
-        //       val myPrefer = getSharedPreferences("KEY", Context.MODE_PRIVATE)
-//        val gen = myPrefer.getString("gender", "Not mentioned")
-//        binding.genderSavedTxt.setText(gen)
-
-//        val age = myPrefer.getInt("age", 0)
-//        binding.ageSavedTxt.setText(age.toString())
-
-//        val height = myPrefer.getFloat("height", 0.0F)
-//        binding.heightSavedTxt.setText(height.toString())
-
-//        val weight = myPrefer.getFloat("weight", 0.0F)
-//        binding.weightSavedTxt.setText(weight.toString())
-
-//        val email = myPrefer.getString("email", "not mentioned")
-//        binding.emailSavedTxt.setText(email)
 
         loadData()
 
@@ -55,9 +41,6 @@ class ProfileActivity : AppCompatActivity() {
     }
 
     private fun loadData() {
-//        val myPrefer = getSharedPreferences("NAME", Context.MODE_PRIVATE)
-//        val name = myPrefer.getString("name", null)
-//        binding.nameSavedTxt.setText(name)
 
         val my2Prefer = getSharedPreferences("KEY", Context.MODE_PRIVATE)
         val name = my2Prefer.getString("name", null)
@@ -81,12 +64,6 @@ class ProfileActivity : AppCompatActivity() {
     }
 
     private fun saveData() {
-
-//        val myPrefer = getSharedPreferences("NAME", Context.MODE_PRIVATE)
-//        val editor = myPrefer.edit()
-//        editor.putString("name", binding.nameSavedTxt.text.toString())
-//        editor.apply()
-
 
         val my2Prefer = getSharedPreferences("KEY", Context.MODE_PRIVATE)
         val editor2 = my2Prefer.edit()
