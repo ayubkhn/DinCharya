@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#CF5B37"
     tools:context=".homepage.FragmentActivity">
 
     <TextView
@@ -13,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="608dp"
         android:text="Hello,"
-        android:textColor="#CF5B37"
+        android:textColor="#040303"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.167"
@@ -27,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="568dp"
         android:text="Ayub"
-        android:textColor="#CF5B37"
+        android:textColor="#040303"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,6 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="88dp"
+        android:background="@drawable/backgroundorange"
         android:layout_marginBottom="18dp"
         app:cardCornerRadius="50dp"
         app:cardUseCompatPadding="true"
@@ -66,7 +68,7 @@
         android:id="@+id/profileImageBtn"
         android:layout_width="59dp"
         android:layout_height="57dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="64dp"
         android:src="@drawable/ic_baseline_person_24"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.906"

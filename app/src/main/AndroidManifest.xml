@@ -59,7 +59,7 @@
             android:name=".dietplans.NatureActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.DietChart.NoActionBar" />
+            android:theme="@style/Theme.DietChart.NoActionBar"></activity>
         <activity
             android:name=".homepage.FragmentActivity"
             android:exported="true"
