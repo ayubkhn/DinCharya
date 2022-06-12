@@ -1,12 +1,12 @@
-package com.khntech.dietchart.lazy
+package com.khntech.dietchart.view.normal
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.khntech.dietchart.R
 
-class LazyNormalActivity : AppCompatActivity() {
+class NormalLoseActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_lazy_normal_activity)
+        setContentView(R.layout.activity_normal_lose)
     }
 }

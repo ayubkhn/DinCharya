@@ -1,4 +1,4 @@
-package com.khntech.dietchart.login
+package com.khntech.dietchart.view
 
 import android.app.ProgressDialog
 import android.content.Intent
@@ -13,17 +13,17 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.PhoneAuthCredential
 import com.google.firebase.auth.PhoneAuthOptions
 import com.google.firebase.auth.PhoneAuthProvider
+import com.khntech.dietchart.GlobalFbInstance
 import com.khntech.dietchart.databinding.ActivityMainBinding
+import com.khntech.dietchart.view.login.RegisterationActivity
 import java.util.concurrent.TimeUnit
 
-class MainActivity : AppCompatActivity() {
+class OtpActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
     private var forceResendingToken: PhoneAuthProvider.ForceResendingToken? = null
     private var mCallBacks: PhoneAuthProvider.OnVerificationStateChangedCallbacks? = null
     private var mVerificationId: String? = null
-    lateinit var firebaseAuth: FirebaseAuth
-
     private val TAG = "MAIN_TAG"
 
     private lateinit var progressDialog: ProgressDialog
@@ -36,7 +36,6 @@ class MainActivity : AppCompatActivity() {
         binding.phoneLl.visibility = View.VISIBLE
         binding.codeLl.visibility = View.GONE
 
-        firebaseAuth = FirebaseAuth.getInstance()
         progressDialog = ProgressDialog(this)
         progressDialog.setTitle("Please wait")
         progressDialog.setCanceledOnTouchOutside(false)
@@ -53,7 +52,7 @@ class MainActivity : AppCompatActivity() {
                 progressDialog.dismiss()
                 Log.d(TAG, "onVerificationFailed : ${e.message}")
 
-                Toast.makeText(this@MainActivity, "${e.message}", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this@OtpActivity, "${e.message}", Toast.LENGTH_SHORT).show()
             }
 
             override fun onCodeSent(
@@ -68,7 +67,7 @@ class MainActivity : AppCompatActivity() {
 
                 binding.phoneLl.visibility = View.GONE
                 binding.codeLl.visibility = View.VISIBLE
-                Toast.makeText(this@MainActivity, "Verification Code sent..", Toast.LENGTH_SHORT)
+                Toast.makeText(this@OtpActivity, "Verification Code sent..", Toast.LENGTH_SHORT)
                     .show()
                 binding.codeSentDescriptionTv.text = "Please type verification code we sent to ${
                     binding.phoneEt.text.toString().trim()
@@ -78,13 +77,13 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.codeSentDescriptionTv.setOnClickListener {
-            startActivity(Intent(this, MainActivity::class.java))
+            startActivity(Intent(this, OtpActivity::class.java))
         }
         binding.phoneContinueBtn.setOnClickListener {
 
             val phone = binding.phoneEt.text.toString().trim()
             if (TextUtils.isEmpty(phone)) {
-                Toast.makeText(this@MainActivity, "Please Enter Your Number", Toast.LENGTH_SHORT)
+                Toast.makeText(this@OtpActivity, "Please Enter Your Number", Toast.LENGTH_SHORT)
                     .show()
             } else {
                 startPhoneNumberVerification(phone)
@@ -95,7 +94,7 @@ class MainActivity : AppCompatActivity() {
 
             val phone = binding.phoneEt.text.toString().trim()
             if (TextUtils.isEmpty(phone)) {
-                Toast.makeText(this@MainActivity, "Please Enter Your Number", Toast.LENGTH_SHORT)
+                Toast.makeText(this@OtpActivity, "Please Enter Your Number", Toast.LENGTH_SHORT)
                     .show()
             } else {
                 resendVerificationCode(phone, forceResendingToken)
@@ -107,7 +106,7 @@ class MainActivity : AppCompatActivity() {
             val code = binding.codeEt.text.toString().trim()
             if (TextUtils.isEmpty(code)) {
                 Toast.makeText(
-                    this@MainActivity, "Please Enter Verification Code", Toast.LENGTH_SHORT
+                    this@OtpActivity, "Please Enter Verification Code", Toast.LENGTH_SHORT
                 )
                     .show()
             } else {
@@ -123,7 +122,7 @@ class MainActivity : AppCompatActivity() {
         progressDialog.show()
 
         val options = mCallBacks?.let {
-            PhoneAuthOptions.newBuilder(firebaseAuth)
+            PhoneAuthOptions.newBuilder(GlobalFbInstance.getFirebaseInstance())
                 .setPhoneNumber(phone)
                 .setTimeout(6L, TimeUnit.SECONDS)
                 .setActivity(this)
@@ -146,7 +145,7 @@ class MainActivity : AppCompatActivity() {
 
 
         val options = mCallBacks?.let {
-            PhoneAuthOptions.newBuilder(firebaseAuth)
+            PhoneAuthOptions.newBuilder(GlobalFbInstance.getFirebaseInstance())
                 .setPhoneNumber(phone)
                 .setTimeout(6L, TimeUnit.SECONDS)
                 .setActivity(this)
@@ -172,14 +171,14 @@ class MainActivity : AppCompatActivity() {
     private fun signInWithPhoneAuthCredential(credential: PhoneAuthCredential) {
         Log.d(TAG, "signInWithPhoneAuthCredential : ")
         progressDialog.setMessage(" Logging in...")
-        firebaseAuth.signInWithCredential(credential)
+        GlobalFbInstance.getFirebaseInstance().signInWithCredential(credential)
             .addOnSuccessListener {
 
                 progressDialog.dismiss()
-                val phone = firebaseAuth.currentUser?.phoneNumber
+                val phone = GlobalFbInstance.getFirebaseInstance().currentUser?.phoneNumber
                 Toast.makeText(this, "Fill your info as $phone", Toast.LENGTH_SHORT).show()
 
-                startActivity(Intent(this, RegisteredActivity::class.java))
+                startActivity(Intent(this, RegisterationActivity::class.java))
                 finish()
             }
             .addOnFailureListener { e ->

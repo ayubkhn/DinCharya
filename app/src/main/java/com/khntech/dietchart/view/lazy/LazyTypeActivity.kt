@@ -1,4 +1,4 @@
-package com.khntech.dietchart.lazy
+package com.khntech.dietchart.view.lazy
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

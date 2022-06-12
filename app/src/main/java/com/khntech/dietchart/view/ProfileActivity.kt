@@ -1,4 +1,4 @@
-package com.khntech.dietchart.profile
+package com.khntech.dietchart.view
 
 import android.content.Context
 import android.content.Intent
@@ -7,7 +7,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.khntech.dietchart.databinding.ActivityProfileBinding
-import com.khntech.dietchart.login.Page1Activity
+import com.khntech.dietchart.view.login.LoginActivity
 
 class ProfileActivity : AppCompatActivity() {
 
@@ -84,7 +84,7 @@ class ProfileActivity : AppCompatActivity() {
 
         val firebaseUser = firebaseAuth.currentUser
         if (firebaseUser == null) {
-            startActivity(Intent(this, Page1Activity::class.java))
+            startActivity(Intent(this, LoginActivity::class.java))
             finish()
         } else {
             val phone: String? = firebaseUser.phoneNumber

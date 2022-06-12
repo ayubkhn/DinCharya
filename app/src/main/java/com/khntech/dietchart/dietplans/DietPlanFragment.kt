@@ -12,7 +12,6 @@ class DietPlanFragment : Fragment() {
 
     lateinit var binding: FragmentDietPlanBinding
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -25,11 +24,10 @@ class DietPlanFragment : Fragment() {
         val bind = FragmentDietPlanBinding.inflate(layoutInflater)
 
         bind.getDietPlanBtn.setOnClickListener {
-            val intent = Intent(this@DietPlanFragment.requireContext(), NatureActivity::class.java)
+            val intent = Intent(this@DietPlanFragment.requireContext(), PersonNatureActivity::class.java)
             startActivity(intent)
         }
         return bind.root
-
     }
 
 

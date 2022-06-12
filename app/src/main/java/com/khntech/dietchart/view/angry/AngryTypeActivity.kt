@@ -1,4 +1,4 @@
-package com.khntech.dietchart.angry
+package com.khntech.dietchart.view.angry
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

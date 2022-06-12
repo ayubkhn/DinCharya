@@ -6,6 +6,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+        android:name=".MainClass"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -18,60 +19,60 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".normal.normalType2"
+            android:name="com.khntech.dietchart.view.normal.SelectTypeActivity"
             android:exported="true" />
         <activity
-            android:name=".normal.NormalNor"
+            android:name=".view.NormalNor"
             android:exported="true" />
         <activity
-            android:name=".lazy.LazyTypeActivity"
-            android:exported="true" />
-
-        <activity
-            android:name=".angry.AngryTypeActivity"
-            android:exported="true" />
-        <activity
-            android:name=".lazy.LazyGainActivity"
-            android:exported="true" />
-        <activity
-            android:name=".lazy.LazyLoseActivity"
-            android:exported="true" />
-        <activity
-            android:name=".normal.NormalGainActivity"
-            android:exported="true" />
-        <activity
-            android:name=".normal.NormalLoseActivity"
-            android:exported="true" />
-        <activity
-            android:name=".angry.AngryGainActivity"
-            android:exported="true" />
-        <activity
-            android:name=".angry.AngryLoseActivity"
+            android:name="com.khntech.dietchart.view.lazy.LazyTypeActivity"
             android:exported="true" />
 
         <activity
-            android:name=".lazy.LazyNormalActivity"
+            android:name="com.khntech.dietchart.view.angry.AngryTypeActivity"
             android:exported="true" />
         <activity
-            android:name=".angry.AngryNormalActivity"
+            android:name="com.khntech.dietchart.view.lazy.LazyGainActivity"
             android:exported="true" />
         <activity
-            android:name=".dietplans.NatureActivity"
+            android:name="com.khntech.dietchart.view.lazy.LazyLoseActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.khntech.dietchart.view.normal.NormalGainActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.khntech.dietchart.view.normal.NormalLoseActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.khntech.dietchart.view.angry.AngryGainActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.khntech.dietchart.view.angry.AngryLoseActivity"
+            android:exported="true" />
+
+        <activity
+            android:name="com.khntech.dietchart.view.lazy.LazyNormalActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.khntech.dietchart.view.angry.AngryNormalActivity"
+            android:exported="true" />
+        <activity
+            android:name=".dietplans.PersonNatureActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.DietChart.NoActionBar"></activity>
         <activity
-            android:name=".homepage.FragmentActivity"
+            android:name="com.khntech.dietchart.view.homepage.FragmentActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.DietChart.NoActionBar" />
         <activity
-            android:name=".login.RegisteredActivity"
+            android:name="com.khntech.dietchart.view.login.RegisterationActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.DietChart.NoActionBar" />
         <activity
-            android:name=".login.Page1Activity"
+            android:name="com.khntech.dietchart.view.login.LoginActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.DietChart.NoActionBar">
@@ -82,12 +83,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".profile.ProfileActivity"
+            android:name=".view.ProfileActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.DietChart.NoActionBar" />
         <activity
-            android:name=".login.MainActivity"
+            android:name="com.khntech.dietchart.view.OtpActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.DietChart.NoActionBar" />

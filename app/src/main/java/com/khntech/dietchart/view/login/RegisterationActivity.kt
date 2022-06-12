@@ -1,28 +1,27 @@
-package com.khntech.dietchart.login
+package com.khntech.dietchart.view.login
 
 import android.content.Context
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
-import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.ktx.auth
-import com.google.firebase.ktx.Firebase
+import androidx.activity.viewModels
+import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.Observer
 import com.khntech.dietchart.databinding.ActivityRegisteredBinding
+import com.khntech.dietchart.viewmodel.MainViewModel
 
-class RegisteredActivity : AppCompatActivity() {
+class RegisterationActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityRegisteredBinding
 
-    private lateinit var auth: FirebaseAuth
+    private val mainViewModel: MainViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityRegisteredBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        auth = Firebase.auth
 
         binding.detail1.visibility = View.VISIBLE
         binding.detail2.visibility = View.GONE
@@ -155,31 +154,46 @@ class RegisteredActivity : AppCompatActivity() {
             return
         } else {
 
-            auth.createUserWithEmailAndPassword(emailId, pass).addOnCompleteListener(this) {
 
-                if (it.isSuccessful) {
-                    Toast.makeText(this, "successfully Signed!! Please Login.." , Toast.LENGTH_SHORT).show()
-                    startActivity(Intent(this, Page1Activity::class.java))
+            mainViewModel.registerWithFirebase(emailId, pass)
 
-                    val myPrefer = getSharedPreferences("KEY", Context.MODE_PRIVATE)
-                    val editor = myPrefer.edit()
+            mainViewModel.registerStatusResponse.observe(this, Observer {
+                if (it == true) {
+                    Toast.makeText(
+                        this,
+                        "successfully Signed!! Please Login..",
+                        Toast.LENGTH_SHORT
+                    ).show()
 
-                    editor.putString("gen", binding.registeredGenderTxt.text.toString())
-                    editor.putString("name", binding.registeredNameTxt.text.toString())
-                    editor.putInt("age", binding.registeredAgeTxt.text.toString().toInt())
-                    editor.putFloat("height", binding.registeredHeightTxt.text.toString().toFloat())
-                    editor.putFloat("weight", binding.registeredWeightTxt.text.toString().toFloat())
-                    editor.putString("email", binding.createEmailTxt.text.toString())
-                    editor.apply()
+                    saveData()
 
-                } else {
+                } else
                     Toast.makeText(this, "Signed Failed", Toast.LENGTH_SHORT).show()
-
-
-                }
-            }
+            })
 
 
         }
+    }
+
+    private fun saveData() {
+        val myPrefer = getSharedPreferences("KEY", Context.MODE_PRIVATE)
+        val editor = myPrefer.edit()
+
+        editor.putString("gen", binding.registeredGenderTxt.text.toString())
+        editor.putString("name", binding.registeredNameTxt.text.toString())
+        editor.putInt("age", binding.registeredAgeTxt.text.toString().toInt())
+        editor.putFloat(
+            "height",
+            binding.registeredHeightTxt.text.toString().toFloat()
+        )
+        editor.putFloat(
+            "weight",
+            binding.registeredWeightTxt.text.toString().toFloat()
+        )
+        editor.putString("email", binding.createEmailTxt.text.toString())
+        editor.apply()
+
+        startActivity(Intent(this, LoginActivity::class.java))
+
     }
 }

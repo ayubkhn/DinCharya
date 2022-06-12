@@ -1,4 +1,4 @@
-package com.khntech.dietchart.homepage
+package com.khntech.dietchart.view.homepage
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
