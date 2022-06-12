@@ -11,7 +11,7 @@ import androidx.lifecycle.Observer
 import com.khntech.dietchart.databinding.ActivityRegisteredBinding
 import com.khntech.dietchart.viewmodel.MainViewModel
 
-class RegisterationActivity : AppCompatActivity() {
+class RegisterActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityRegisteredBinding
 

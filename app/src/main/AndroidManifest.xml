@@ -67,7 +67,7 @@
             android:label="@string/app_name"
             android:theme="@style/Theme.DietChart.NoActionBar" />
         <activity
-            android:name="com.khntech.dietchart.view.login.RegisterationActivity"
+            android:name="com.khntech.dietchart.view.login.RegisterActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.DietChart.NoActionBar" />

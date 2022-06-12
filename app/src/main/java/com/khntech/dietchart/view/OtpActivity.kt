@@ -9,13 +9,12 @@ import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.FirebaseException
-import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.PhoneAuthCredential
 import com.google.firebase.auth.PhoneAuthOptions
 import com.google.firebase.auth.PhoneAuthProvider
 import com.khntech.dietchart.GlobalFbInstance
 import com.khntech.dietchart.databinding.ActivityMainBinding
-import com.khntech.dietchart.view.login.RegisterationActivity
+import com.khntech.dietchart.view.login.RegisterActivity
 import java.util.concurrent.TimeUnit
 
 class OtpActivity : AppCompatActivity() {
@@ -178,7 +177,7 @@ class OtpActivity : AppCompatActivity() {
                 val phone = GlobalFbInstance.getFirebaseInstance().currentUser?.phoneNumber
                 Toast.makeText(this, "Fill your info as $phone", Toast.LENGTH_SHORT).show()
 
-                startActivity(Intent(this, RegisterationActivity::class.java))
+                startActivity(Intent(this, RegisterActivity::class.java))
                 finish()
             }
             .addOnFailureListener { e ->
