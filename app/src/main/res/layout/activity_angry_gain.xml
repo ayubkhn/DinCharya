@@ -26,7 +26,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:gravity="center"
-                android:text="Your Suitable Diet Plan is Here,"
+                android:text="@string/your_suitable_diet_plan_is_here"
                 android:textColor="#CF5B37"
                 android:textSize="30dp"
                 android:textStyle="bold"
@@ -45,18 +45,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="1. How to Gain Weight the Healthy Way"
+                    android:text="@string/_1_gain_weight"
                     android:textColor="#000"
                     android:textSize="20dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="●If you want to gain weight, it’s very important to do it right.\n
-●Binging on soda and donuts may help you gain weight, but it can destroy your health at the same time.\n
-●If you’re underweight, you want to gain a balanced amount of muscle mass and subcutaneous fat rather than a lot of unhealthy belly fat.\n
-●There are plenty of normal-weight people who get type 2 diabetes, heart disease and other health problems often associated with obesity\n
-●Therefore, it’s absolutely essential to eat healthy foods and live an overall healthy lifestyle."
+                    android:text="@string/if_you_want_to_gain_weight_"
                     android:layout_marginTop="10dp"
                     android:textSize="22dp" />
 
@@ -65,19 +61,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
-                    android:text="2. Eat More Calories Than Your Body Burns"
+                    android:text="@string/_2_gain_weight"
                     android:textColor="#000"
                     android:textSize="20dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="●The most important thing you can do to gain weight is to create a calorie surplus, meaning you eat more calories than your body needs.\n
-●You can determine your calorie needs using this calorie calculator or just simply multiply your weight by 29 you will know how much calories ypur body required to stay maintenance.\n
-●If you want to gain weight slowly and steadily, aim for 300–500 calories more than you burn each day according to the calculator.\n
-●If you want to gain weight fast, aim for around 700–1,000 calories above your maintenance level.\n
-●Keep in mind that calorie calculators only provide estimates. Your needs may vary by several hundred calories per day, give or take.\n
-●You don’t need to count calories for the rest of your life, but it helps to do it for the first few days or weeks to get a feel for how many calories you’re eating.\n"
+                    android:text="@string/the_most_important_thing_you_can_do_to_gain_weight_"
                     android:layout_marginTop="10dp"
                     android:textSize="22dp" />
 
@@ -87,19 +78,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
-                    android:text="3. Eat Plenty of Protein"
+                    android:text="@string/_3_angry_gain_weight"
                     android:textColor="#000"
                     android:textSize="20dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="●The single most important nutrient for gaining healthy weight is protein.\n
-●Muscle is made of protein and without it most of those extra calories may end up as body fat.\n
-●Studies show that during periods of overfeeding, a high-protein diet causes many of the extra calories to be turned into muscle.\n
-●However, keep in mind that protein is a double-edged sword. It’s also highly filling, which may reduce your hunger and appetite significantly, making it harder to get in enough calories.\n
-●Aim for 0.7–1 grams of protein per pound of body weight (1.5–2.2 grams of protein per kilogram). You can even go above that if your calorie intake is very high.\n
-●High-protein foods include meats, fish, eggs, many dairy products, legumes, nuts and others. Protein supplements like whey protein can also be useful if you struggle to get enough protein in your diet."
+                    android:text="@string/the_single_most_important_nutrient_"
                     android:layout_marginTop="10dp"
                     android:textSize="22dp" />
 
@@ -109,16 +95,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
-                    android:text="4. Fill up on Plenty of Carbs and Fat and Eat at Least 3 Times per Day"
+                    android:text="@string/_4_angry_gain_weight"
                     android:textColor="#000"
                     android:textSize="20dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="●Eat plenty of high-carb and high-fat foods if weight gain is a priority for you. It is best to eat plenty of protein, fat and carbs at each meal.\n
-●It is also a bad idea to do intermittent fasting. This is useful for weight loss and health improvement but can make it much harder to eat enough calories to gain weight.\n
-●Make sure to eat at least three meals per day and try to add in energy-dense snacks whenever possible."
+                    android:text="@string/eat_plenty_of_high_carb_and_high_fat_foods_"
                     android:layout_marginTop="10dp"
                     android:textSize="22dp" />
 
@@ -128,19 +112,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
-                    android:text="5. Lift Heavy Weights and Improve Your Strength"
+                    android:text="@string/_5_angry_gain_weight"
                     android:textColor="#000"
                     android:textSize="20dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="●To make sure that the excess calories go to your muscles instead of just your fat cells, it’s absolutely crucial to lift weights.\n
-●Go to a gym and lift 2–4 times per week. Lift heavy and try to increase the weights and volume over time.\n
-●If you’re completely out of shape or new to training, consider hiring a qualified personal trainer to help you get started.\n
-●You may also want to consult with a doctor if you have skeletal problems or any medical issue.\n
-●It’s probably best to take it easy on the cardio for now — focus mostly on the weights\n
-●Doing some cardio is fine to improve fitness and well-being, but don’t do so much that you end up burning all the additional calories you’re eating."
+                    android:text="@string/to_make_sure_that_the_excess_calories_go_to_your_muscles_i"
                     android:layout_marginTop="10dp"
                     android:textSize="22dp" />
 
@@ -150,22 +129,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
-                    android:text="6. Here are some energy-dense foods that are perfect for gaining weight"
+                    android:text="@string/_6_angry_gain_weight"
                     android:textColor="#000"
                     android:textSize="20dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="●Combining a high calorie intake with heavy strength training are the two most important factors such as,
-Nuts: Almonds, walnuts, macadamia nuts, peanuts, etc.\n
-Dried fruit: Raisins, dates, prunes and others.\n
-High-fat dairy: Whole milk, full-fat yogurt, cheese, cream.\n
-Fats and oils: Extra virgin olive oil and avocado oil.\n
-Grains: Whole grains like oats and brown rice.\n
-Meat: Chicken, beef, pork, lamb, etc. Choose fattier cuts.\n
-Tubers: Potatoes, sweet potatoes and yams.\n
-Dark chocolate, avocados, peanut butter, coconut milk, granola, trail mixes.\n"
+                    android:text="@string/combining_a_high_calorie_intake_with_heavy_strength_training_"
                     android:layout_marginTop="10dp"
                     android:textSize="22dp" />
 

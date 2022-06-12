@@ -25,7 +25,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:gravity="center"
-                android:text="Your Suitable Diet Plan is Here,"
+                android:text="@string/your_suitable_diet_plan_is_here"
                 android:textColor="#CF5B37"
                 android:textSize="30dp"
                 android:textStyle="bold"
@@ -44,7 +44,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="[Being on a diet could often reduce tolerance levels, but luckily, there are certain food items that help calm the temper without affecting the weight loss regime.]"
+                    android:text="@string/being_on_a_diet_"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                     android:textSize="22dp" />
 
@@ -52,74 +52,56 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
-                    android:text="1. Eating breakfast will help you start your day with plenty of energy. Don't ruin your breakfast with high-fat and high-calorie foods. Choose some protein and fiber for your breakfast; breakfast is also a good time to eat some fresh fruit."
+                    android:text="@string/_1_eating_breakfast_will_help_you_"
                     android:textSize="22dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
-                    android:text="2. Eat regular meals
-Eating at regular times during the day helps burn calories at a faster rate. It also reduces the temptation to snack on foods high in fat and sugar.
-Consume foods as close as possible to how they look in nature. For example, an orange is less processed and closer to nature than orange juice."
+                    android:text="@string/_2_eat_regular_meals_eating_at_regular_times_"
                     android:textSize="22dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
-                    android:text="3. Eat plenty of fruit and veg
-Fruit and veg are low in calories and fat, and high in fibre – 3 essential ingredients for successful weight loss. They also contain plenty of vitamins and minerals.
-Eat plenty of dopamine-building foods, such as fish, poultry, eggs, and leafy greens."
+                    android:text="@string/_3_eat_plenty_of_fruit_and_veg_"
                     android:textSize="22dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
-                    android:text="4. Get more active
-Being active is key to losing weight and keeping it off. As well as providing lots of health benefits, exercise can help burn off the excess calories you cannot lose through diet alone."
+                    android:text="@string/_4_get_more_active_being_active_"
                     android:textSize="22dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
-                    android:text="5. Drink plenty of water
-People sometimes confuse thirst with hunger. You can end up consuming extra calories when a glass of water is really what you need."
+                    android:text="@string/_5_drink_plenty_of_water_people_"
                     android:textSize="22dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
-                    android:text="6. Eat high fibre foods
-Foods containing lots of fibre can help keep you feeling full, which is perfect for losing weight. Fibre is only found in food from plants, such as fruit and veg, oats, wholegrain bread, brown rice and pasta, and beans, peas and lentils."
+                    android:text="@string/_6_eat_high_fibre_foods_foods_"
                     android:textSize="22dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
-                    android:text="7. Read food labels
-Knowing how to read food labels can help you choose healthier options. Use the calorie information to work out how a particular food fits into your daily calorie allowance on the weight loss plan.
-Get your vitamin D level checked. Low levels of vitamin D are associated with depression and mood disorders. Vitamin D can be found in fatty fish, egg yolks, liver and sunshine."
+                    android:text="@string/_7_read_food_labels_knowing_"
                     android:textSize="22dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
-                    android:text="8. Beside the above diet keep in mind the following points-
-• Avoid heavy dinner; maintain at least 2 to 3 hours of gap between meal and sleep.
-• Replace cold drinks with coconut water, vegetable soup or butter milk
-• Drink at least 2 to 3 liters of water everyday
-• Fibre is excellent for weight loss , so consume more of raw vegetables and fruits
-• All carbs are not bad; avoid simple carbs like sugar, sweet and processed food.
-• Never skip meals.
-• Avoid Bakery products.
-• Replace Chicken Tikka with Chicken Salami
-• Avoid taking water along with the meal."
+                    android:text="@string/_8_beside_the_above_diet_keep_in_mind_the_following_points_"
                     android:textSize="22dp" />
 
 

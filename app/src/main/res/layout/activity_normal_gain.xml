@@ -25,7 +25,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:gravity="center"
-                android:text="Your Suitable Diet Plan is Here,"
+                android:text="@string/your_suitable_diet_plan_is_here"
                 android:textColor="#CF5B37"
                 android:textSize="30dp"
                 android:textStyle="bold"
