@@ -39,5 +39,4 @@ class NatureActivity : AppCompatActivity() {
         startActivity(Intent(this, AngryTypeActivity::class.java))
     }
 
-
 }
