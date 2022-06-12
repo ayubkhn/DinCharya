@@ -1,12 +1,13 @@
-package com.khntech.dietchart.normal
+package com.khntech.dietchart.view.normal
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.khntech.dietchart.R
+import com.khntech.dietchart.view.NormalNor
 
-class normalType2 : AppCompatActivity() {
+class SelectTypeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_normal_type2)

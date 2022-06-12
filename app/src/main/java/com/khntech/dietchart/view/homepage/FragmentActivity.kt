@@ -1,4 +1,4 @@
-package com.khntech.dietchart.homepage
+package com.khntech.dietchart.view.homepage
 
 import android.content.Context
 import android.content.Intent
@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
 import android.widget.TextView
-import com.khntech.dietchart.profile.ProfileActivity
+import com.khntech.dietchart.view.ProfileActivity
 import com.khntech.dietchart.R
 
 class FragmentActivity : AppCompatActivity() {

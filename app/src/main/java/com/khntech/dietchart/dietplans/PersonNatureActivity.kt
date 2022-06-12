@@ -5,11 +5,11 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.khntech.dietchart.R
-import com.khntech.dietchart.angry.AngryTypeActivity
-import com.khntech.dietchart.lazy.LazyTypeActivity
-import com.khntech.dietchart.normal.normalType2
+import com.khntech.dietchart.view.angry.AngryTypeActivity
+import com.khntech.dietchart.view.lazy.LazyTypeActivity
+import com.khntech.dietchart.view.normal.SelectTypeActivity
 
-class NatureActivity : AppCompatActivity() {
+class PersonNatureActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_nature)
@@ -28,16 +28,15 @@ class NatureActivity : AppCompatActivity() {
     }
 
     fun decent(view: View) {
-        startActivity(Intent(this, normalType2::class.java))
+        startActivity(Intent(this, SelectTypeActivity::class.java))
     }
 
     fun calm(view: View) {
-        startActivity(Intent(this, normalType2::class.java))
+        startActivity(Intent(this, SelectTypeActivity::class.java))
     }
 
     fun aggressive(view: View) {
         startActivity(Intent(this, AngryTypeActivity::class.java))
     }
-
 
 }
