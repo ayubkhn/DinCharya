@@ -44,7 +44,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="DAY 1"
+                    android:text="@string/day_1_lazy_gain"
                     android:textColor="#000"
                     android:textSize="20dp" />
 
@@ -52,7 +52,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:text="●Breakfast - 1 katori corn mix vegetable upma with 1 cup milk with 1 tsp chironji in it.\n●Mid-day meal – 1 katori seasonal fruit with pinch of cinnamon powderln\n●Lunch – 2 wheat roti with 1 katori soya masala curry, 1 tbsp. mint chutney\n●Snacks – 1 katori sprouts chaat\n●Dinner – 1 sweet potato cheese wrap with 1tblsp mint chutney"
+                    android:text="@string/breakfast_1_"
                     android:textSize="22dp" />
 
                 <TextView
@@ -60,7 +60,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
-                    android:text="DAY 2"
+                    android:text="@string/day_2_lazy_gain"
                     android:textColor="#000"
                     android:textSize="20dp" />
 
@@ -68,11 +68,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:text="●Breakfast – 1 paneer vegetable sandwich\n
-●Mid-day meal – 1 katori roasted poha chiwda with added peanut\n
-●Lunch – 2 paneer mix vegetable paratha with 1 bowl tur dal\n
-●Snacks – 1 katori boiled cheesy sweet corn\n
-●Dinner – 1 katori soya masala pulao"
+                    android:text="@string/breakfast_1_paneer_vegetable_"
                     android:textSize="22dp" />
 
                 <TextView
@@ -80,7 +76,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
-                    android:text="DAY 3"
+                    android:text="@string/day_3_lazy_gain"
                     android:textColor="#000"
                     android:textSize="20dp" />
 
@@ -88,11 +84,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:text="●Breakfast – 2 panchmel dal dosa with 1tblsp green chutney\n
-●Mid-day meal – 1 boiled potato with pinch of black pepper ( 1 med size)\n
-●Lunch – 2 wheat roti with 1 katori mix sprouts usal, 1 katori salad\n
-●Snacks – 1 banana date milkshake\n
-●Dinner – 1 katori ragda pattice (3 pattice)"
+                    android:text="@string/breakfast_2_panchmel_dal_dosa_"
                     android:textSize="22dp" />
 
                 <TextView
@@ -100,7 +92,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
-                    android:text="DAY 4"
+                    android:text="@string/day_4_lazy_gain"
                     android:textColor="#000"
                     android:textSize="20dp" />
 
@@ -108,11 +100,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:text="●Breakfast – 1 katori aloo peas poha, 1 cup milk\n
-●Mid-day meal – 1 glass almond milkshake\n
-●Lunch – 2 aloo methi paratha, 1 katori matki usal, 1 katori daliya kheer\n
-●Snacks – 1 katori kurmura ground chiwda, 1 cup milk with 1 tsp almond powder\n
-●Dinner – 1 rajmah tikki roll, 1 tblsp avocado dip\n"
+                    android:text="@string/breakfast_1_katori_"
                     android:textSize="22dp" />
 
                 <TextView
@@ -120,7 +108,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
-                    android:text="DAY 5"
+                    android:text="@string/day_5_lazy_gain"
                     android:textColor="#000"
                     android:textSize="20dp" />
 
@@ -128,11 +116,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:text="●Breakfast – 4 paneer cheese mix veg tikki with mint dip\n
-●Mid-day meal – 1 cup almond milk apricot milkshake\n
-●Lunch – 1 bowl chole pulao with 1 katori mix vegetable curry\n
-●Snacks – 4 muthiyas, 1 cup milk\n
-●Dinner – 2 palak masala dosa with 1 katori drumstick leaves"
+                    android:text="@string/breakfast_4_paneer_cheese_mix_veg_"
                     android:textSize="22dp" />
 
                 <TextView
@@ -140,7 +124,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
-                    android:text="DAY 6"
+                    android:text="@string/day_6_lazy_gain"
                     android:textColor="#000"
                     android:textSize="20dp" />
 
@@ -148,11 +132,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:text="●Breakfast – 1 katori oats porridge with added dry fruits\n
-●Mid-day meal – 1 glass mango almond smoothie\n
-●Lunch – 2 wheat roti with 1 katori aloo peas curryln
-●Snacks – 1 katori bhel with veggies and groundnuts\n
-●Dinner – 1 cheese vegetable grilled sandwich with 1 tbsp mint chutey"
+                    android:text="@string/breakfast_1_katori_oats_porridge_"
                     android:textSize="22dp" />
 
                 <TextView
@@ -160,7 +140,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
-                    android:text="DAY 7"
+                    android:text="@string/day_7_lazy_gain"
                     android:textColor="#000"
                     android:textSize="20dp" />
 
@@ -168,11 +148,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:text="●Breakfast – 1 cucumber rajgeera singhada Thalipeeth with 1 katori curd\n
-●Mid-day meal – 1 katori sevai kheer\n
-●Lunch – 1 katori soya masala with 2 palak paratha\n
-●Snacks – 1 glass mix dryfruits milkshake\n
-●Dinner - 1 katori jeera rice with panchmel dal tadka"
+                    android:text="@string/breakfast_1_cucumber_rajgeera_"
                     android:textSize="22dp" />
 
 
