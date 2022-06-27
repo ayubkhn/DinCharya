@@ -22,9 +22,9 @@
             android:layout_height="78dp"
             android:layout_marginTop="30dp"
             android:gravity="center"
-            android:text="Select what type of plan you need according to your nature"
+            android:text="@string/select_what_type_of_plan_you_need_according_to_your_nature"
             android:textColor="#CF5B37"
-            android:textSize="30dp"
+            android:textSize="30sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -37,7 +37,8 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="90dp"
             android:onClick="lazyGain"
-            android:text="For Gain" />
+            android:text="@string/for_gain"
+            tools:ignore="UsingOnClickInXml" />
 
         <Button
             android:id="@+id/lazyLose"
@@ -46,7 +47,8 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="35dp"
             android:onClick="lazyLose"
-            android:text="For Lose" />
+            android:text="@string/for_lose"
+            tools:ignore="UsingOnClickInXml" />
 
         <Button
             android:id="@+id/lazyNormal"
@@ -55,7 +57,8 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="35dp"
             android:onClick="lazyNormal"
-            android:text="Normal" />
+            android:text="@string/normal"
+            tools:ignore="UsingOnClickInXml" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

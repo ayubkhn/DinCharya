@@ -16,7 +16,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <TextView
@@ -27,7 +27,7 @@
                 android:gravity="center"
                 android:text="@string/your_suitable_diet_plan_is_here"
                 android:textColor="#CF5B37"
-                android:textSize="30dp"
+                android:textSize="30sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -46,14 +46,14 @@
                     android:layout_marginTop="10dp"
                     android:text="@string/_1_lazy_lose"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:text="@string/you_don_t_need_to_completely_cut_out_foods_you_enjoy_whether_it_s_carbs_or_fats_denying_yourself_your_favorite_foods_may_only_make_your_cravings_worse_instead_cut_down_on_your_portions_and_balance_out_unhealthy_foods_with_healthier_foods_that_contain_fewer_calories_and_more_fiber"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
                 <TextView
                     style="@style/TextAppearance.MaterialComponents.Subtitle1"
@@ -62,14 +62,14 @@
                     android:layout_marginTop="30dp"
                     android:text="@string/day_2_lazy_lose"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:text="@string/while_you_have_your_meals_or_even_your_snacks_try_to_pay_attention_to_the_look_smell_taste_and_feel_of_your_food_as_well_as_to_your_chewing_and_swallowing_being_fully_engaged_in_the_act_of_eating_will_help_you_be_more_in_tune_with_your_body_and_notice_when_you_are_actually_full_this_may_prevent_you_from_overeating"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
 
                 <TextView
@@ -79,14 +79,14 @@
                     android:layout_marginTop="30dp"
                     android:text="@string/day_3_lazy_lose"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:text="@string/instead_of_snacking_on_calorie_dense_food_make_it_a_habit_to_eat_nuts_especially_walnuts_and_almonds_they_can_make_you_feel_fuller_for_longer_so_that_you_eat_less_during_your_next_meal"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
 
                 <TextView
@@ -96,14 +96,14 @@
                     android:layout_marginTop="30dp"
                     android:text="@string/day_4_lazy_lose"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:text="@string/like_nuts_pulses_such_as_beans_peas_chickpeas_and_lentils_keep_you_feeling_satiated_and_help_you_go_longer_between_meals"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
 
                 <TextView
@@ -113,14 +113,14 @@
                     android:layout_marginTop="30dp"
                     android:text="@string/day_5_lazy_lose"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:text="@string/lowering_your_room_temperature_to_66_f_at_night_can_help_you_burn_fat_as_your_body_needs_to_work_a_little_harder_to_keep_you_warm"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
 
                 <TextView
@@ -130,14 +130,14 @@
                     android:layout_marginTop="30dp"
                     android:text="@string/day_6_lazy_lose"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:text="@string/try_eating_a_salad_or_soup_before_your_main_course_this_can_fill_you_up_so_that_you_end_up_eating_less_of_your_main_course"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
 
                 <TextView
@@ -147,14 +147,14 @@
                     android:layout_marginTop="30dp"
                     android:text="@string/day_7_lazy_lose"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:text="@string/a_2020_study_published_in_the_journal_of_nutrition_found_that_women_who_consumed_2_3_cups_of_coffee_a_day_had_less_accumulation_of_fat_in_the_body_including_in_the_abdomen"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
 
                 <TextView
@@ -164,14 +164,14 @@
                     android:layout_marginTop="30dp"
                     android:text="@string/day_8_lazy_lose"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:text="@string/let_s_make_a_thai_dish_tonight_yes_spicy_foods_have_been_known_to_speed_up_your_metabolism_so_add_a_little_cayenne_pepper_to_that_dish_plus_it_may_be_so_spicy_that_you_end_up_eating_a_little_less"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
 
                 <TextView
@@ -181,14 +181,14 @@
                     android:layout_marginTop="30dp"
                     android:text="@string/day_9_lazy_lose"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:text="@string/green_tea_is_loaded_with_antioxidants_and_other_substances_that_help_boost_your_metabolism_studies_have_shown_that_there_are_active_components_in_green_tea_that_help_break_down_fat"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
 
                 <TextView
@@ -198,14 +198,14 @@
                     android:layout_marginTop="30dp"
                     android:text="@string/day_10_lazy_lose"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:text="@string/don_t_want_to_count_calories_that_s_fine_try_the_half_method_following_the_half_method_helps_you_practice_portion_control_so_that_you_can_save_yourself_the_extra_300_calories_that_you_don_t_need"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
 
                 <TextView
@@ -215,14 +215,14 @@
                     android:layout_marginTop="30dp"
                     android:text="@string/day_11_lazy_lose"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:text="@string/ok_so_i_said_this_was_the_lazy_person_guide_i_didn_t_say_you_had_to_go_to_the_gym_but_did_you_know_simply_by_adding_another_1000_2000_steps_to_your_day_can_actually_benefit_you_try_it_out"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
 
             </LinearLayout>

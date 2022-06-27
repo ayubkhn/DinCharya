@@ -13,10 +13,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
-        android:text="Diet Chart"
+        android:text="@string/diet_chart"
         android:textAlignment="center"
         android:textColor="#ffffff"
-        android:textSize="40dp"
+        android:textSize="40sp"
         android:textStyle="bold" />
 
     <androidx.cardview.widget.CardView
@@ -37,17 +37,20 @@
                 android:id="@+id/loginEmailTxt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Enter Your Email"
-                android:textAlignment="center" />
+                android:hint="@string/enter_your_email"
+                android:textAlignment="center"
+                android:importantForAutofill="no"
+                android:inputType="textEmailAddress" />
 
             <EditText
                 android:id="@+id/loginPasswordTxt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="Enter Your Password"
+                android:hint="@string/enter_your_password"
                 android:inputType="textPassword"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:importantForAutofill="no" />
 
             <Button
                 android:id="@+id/loginBtn"
@@ -55,7 +58,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:gravity="center"
-                android:text="Login" />
+                android:text="@string/login" />
 
 
         </LinearLayout>
@@ -67,9 +70,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="100dp"
-        android:text="New to Diet Chart? Sign Up"
+        android:text="@string/new_to_diet_chart_sign_up"
         android:textAlignment="center"
-        android:textSize="15dp"
+        android:textSize="15sp"
         android:textStyle="bold" />
 
 

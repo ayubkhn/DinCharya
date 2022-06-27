@@ -16,7 +16,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <TextView
@@ -27,7 +27,7 @@
                 android:gravity="center"
                 android:text="@string/your_suitable_diet_plan_is_here"
                 android:textColor="#CF5B37"
-                android:textSize="30dp"
+                android:textSize="30sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -47,14 +47,14 @@
                     android:layout_marginTop="10dp"
                     android:text="@string/pre_breakfast_snack"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
                     android:text="@string/consume_a_fistful_of_soaked_almonds_and_walnuts_if_you_can_t_soak_the_dry_fruits_overnight_grab_a_banana"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
                 <TextView
                     style="@style/TextAppearance.MaterialComponents.Subtitle1"
@@ -63,14 +63,14 @@
                     android:layout_marginTop="50dp"
                     android:text="@string/breakfast_snack_"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
                     android:text="@string/about_30_45_minutes_after_eating_the_nuts_you_may_have_your_breakfast_have_a_whole_wheat_bread_sandwich_or_two_stuffed_parathas_made_of_whole_wheat_or_multigrain_atta_nif_you_are_a_non_vegetarian_have_two_plain_parathas_with_green_chutney_and_one_boiled_egg_or_egg_paratha_you_may_even_have_one_of_the_following_recipes_n_3_4_ragi_idlis_small_sized_idlis_with_chutney_and_sambhar_n_a_bowl_full_of_mixed_vegetable_poha_or_sooji_upma_n_2moong_dal_chila_n_3_4_medium_sized_pieces_of_dhokla_khamni"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
                 <TextView
                     style="@style/TextAppearance.MaterialComponents.Subtitle1"
@@ -79,14 +79,14 @@
                     android:layout_marginTop="50dp"
                     android:text="@string/lunch"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
                     android:text="@string/have_your_lunch_between_1_to_2_pm_focus_on_foods_that_are_rich_in_lean_protein_have_tofu_soya_beans_soya_chunks_or_nuggets_lentils_and_legumes_like_rajma_etc_you_can_have_two_whole_wheat_atta_or_soya_atta_rotis_one_sabzi_vegetable_curry_some_fresh_vegetable_salads_tomatoes_cucumber_etc_one_chana_curry_or_any_other_legume_a_small_bowl_of_curd_or_a_glass_of_buttermilk_if_you_are_a_non_vegetarian_you_may_have_fish_or_chicken_preparation_avoid_red_meat"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
                 <TextView
                     style="@style/TextAppearance.MaterialComponents.Subtitle1"
@@ -95,14 +95,14 @@
                     android:layout_marginTop="50dp"
                     android:text="@string/tea_time_snack"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
                     android:text="@string/have_baked_ragi_or_soya_chaklis_or_dry_fruits_chikki"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
                 <TextView
                     style="@style/TextAppearance.MaterialComponents.Subtitle1"
@@ -111,14 +111,14 @@
                     android:layout_marginTop="50dp"
                     android:text="@string/pre_dinner_meal"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
                     android:text="@string/have_a_fistful_of_roasted_nuts_a_glass_of_fresh_fruit_juice_or_a_bowl_of_vegetable_soup"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
                 <TextView
                     style="@style/TextAppearance.MaterialComponents.Subtitle1"
@@ -127,14 +127,14 @@
                     android:layout_marginTop="50dp"
                     android:text="@string/dinner"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
                     android:text="@string/if_you_sleep_at_about_10_pm_then_eat_your_meal_at_around_8_pm_you_may_have_for_oats_or_dalia_khichdi_or_two_rotis_and_a_sabzi_with_some_fresh_salads"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
 
             </LinearLayout>

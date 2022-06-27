@@ -16,7 +16,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <TextView
@@ -27,7 +27,7 @@
                 android:gravity="center"
                 android:text="@string/your_suitable_diet_plan_is_here"
                 android:textColor="#CF5B37"
-                android:textSize="30dp"
+                android:textSize="30sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -44,96 +44,96 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="1. Make small tweaks"
+                    android:text="@string/_1_make_small_tweaks"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:text="Cut down on the packaged and processed foods; they're usually loaded with sodium, which may lead to bloating and a higher risk of heart problems. Whenever possible, eat fresh produce, as we always did in India, and make your juices by throwing diced fruits and veggies into the blender. Eliminate the white (rice, sugar, bread) and go for brown. Pick wholewheat atta over refined flour."
-                    android:textSize="22dp" />
+                    android:text="@string/cut_down_on_the_packaged_and_processed_foods_"
+                    android:textSize="22sp" />
 
                 <TextView
                     style="@style/TextAppearance.MaterialComponents.Subtitle1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
-                    android:text="2. Eat seasonal fruits"
+                    android:text="@string/_2_eat_seasonal_fruits"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:text="Eat seasonal fruits from the local market instead of exotic imports found out of season. Seasonal fruits usually are rich in the compounds that the body needs for that time of the year, e.g. guava and orange, rich in Vitamin C, come to the market in winter, just when you need that vitamin to guard against the common cold."
-                    android:textSize="22dp" />
+                    android:text="@string/eat_seasonal_fruits_from_the_local_market_"
+                    android:textSize="22sp" />
 
                 <TextView
                     style="@style/TextAppearance.MaterialComponents.Subtitle1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
-                    android:text="3. Stir-fry instead of deep-fry"
+                    android:text="@string/_3_stir_fry_instead_of_deep_fry"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:text="The occasional samosa won't bust your weight loss plan, but on a daily basis, stir-frying is a far better idea than deep-frying, as you can keep the calorie count low without sacrificing taste."
-                    android:textSize="22dp" />
+                    android:text="@string/the_occasional_samosa_won_t_bust_your_weight_loss_"
+                    android:textSize="22sp" />
 
                 <TextView
                     style="@style/TextAppearance.MaterialComponents.Subtitle1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
-                    android:text="4. To increase the basal metabolic rate"
+                    android:text="@string/_4_to_increase_the_basal_metabolic_rate"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:text="Eat several small meals a day. This gives the body repeated assurance that more food is coming -it stops hoarding calories and happily burns fat. A small meal isn't a bag of crisps and vending machine coffee; its a fruit, or a small portion of trail mix (dry fruits and unsalted nuts), or a small bowl of daal with a roti, or a bowl of oats."
-                    android:textSize="22dp" />
+                    android:text="@string/eat_several_small_meals_a_day_"
+                    android:textSize="22sp" />
 
                 <TextView
                     style="@style/TextAppearance.MaterialComponents.Subtitle1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
-                    android:text="5. Do some lightweight training"
+                    android:text="@string/_5_do_some_lightweight_training"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:text="This builds muscle tone, giving the body a more sculpted look, and increases the basal metabolic rate. A daily workout with light weights - make it a low-intensity workout, if you cant do more - prompts the body to go on burning calories long after you've stopped exercising. Even 5-10 minutes a day is a lot better than nothing. It doesn't take much to re-orient your lifestyle and achieve permanent weight loss. Think of it as perfect weight, made in India."
-                    android:textSize="22dp" />
+                    android:text="@string/this_builds_muscle_tone_"
+                    android:textSize="22sp" />
 
                 <TextView
                     style="@style/TextAppearance.MaterialComponents.Subtitle1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
-                    android:text="6. Sample Diet Chart For Weight Loss"
+                    android:text="@string/_6_sample_diet_chart_for_weight_loss"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:text="7am: Lemon juice in warm water; a tiny piece of raw ginger (to be chewed).\n8am: Breakfast made fresh with high-fibre cereals like oats and bajra, topped by a spoonful of ground flax seed; a glass of milk or a bowl of curd; one fruit, e.g. diced papaya.\n10.30am: About half a dozen almonds and some walnuts.\n1pm: A bowl of salad with olive oil drizzled on it; a small bowl of brown rice with stir-fried vegetables; one roti with daal.\n3pm: A glass of chaas and a banana.\n5pm: A cup of green tea, and two multigrain biscuits.\n7pm: A small bowl of sprouts, or a very small helping of dry fruits.\n8pm: A bowl of daal, a few cubes of cottage cheese, two rotis, sauteed vegetables.\n10pm: A small glass of warm milk. N.B. This diet chart for weight loss is for illustrative purposes only."
-                    android:textSize="22dp" />
+                    android:text="@string/_7am_lemon_juice_in_warm_water_"
+                    android:textSize="22sp" />
 
 
             </LinearLayout>

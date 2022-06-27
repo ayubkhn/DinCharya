@@ -13,9 +13,9 @@
         android:layout_height="67dp"
         android:layout_marginTop="80dp"
         android:gravity="center"
-        android:text="Select Your Body Type"
+        android:text="@string/select_your_body_type"
         android:textColor="#ffffff"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,91 +47,97 @@
                 android:id="@+id/aggressiveBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="80.5dp"
+                android:layout_marginStart="80.5dp"
                 android:layout_marginTop="20dp"
                 android:onClick="aggressive"
-                android:text="Aggressive"
+                android:text="@string/aggressive"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/calmBtn"
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.432" />
+                app:layout_constraintVertical_bias="0.432"
+                tools:ignore="UsingOnClickInXml" />
 
             <Button
                 android:id="@+id/calmBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="140.5dp"
+                android:layout_marginStart="140.5dp"
                 android:layout_marginTop="20dp"
                 android:onClick="calm"
-                android:text="Calm"
+                android:text="@string/calm"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.643"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.495" />
+                app:layout_constraintVertical_bias="0.495"
+                tools:ignore="UsingOnClickInXml" />
 
             <Button
                 android:id="@+id/decentBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="80.5dp"
+                android:layout_marginStart="80.5dp"
                 android:layout_marginTop="20dp"
                 android:onClick="decent"
-                android:text="Decent"
+                android:text="@string/decent"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.618"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.69" />
+                app:layout_constraintVertical_bias="0.69"
+                tools:ignore="UsingOnClickInXml" />
 
             <Button
                 android:id="@+id/inActiveBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="140.5dp"
+                android:layout_marginStart="140.5dp"
                 android:layout_marginTop="20dp"
                 android:onClick="inActive"
-                android:text="InActive"
+                android:text="@string/inactive"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.344"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.647" />
+                app:layout_constraintVertical_bias="0.647"
+                tools:ignore="UsingOnClickInXml" />
 
             <Button
                 android:id="@+id/lazyBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="90.5dp"
+                android:layout_marginStart="90.5dp"
                 android:layout_marginTop="20dp"
                 android:onClick="lazy"
-                android:text="Lazy"
+                android:text="@string/lazy"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.352"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.538" />
+                app:layout_constraintVertical_bias="0.538"
+                tools:ignore="UsingOnClickInXml" />
 
             <Button
                 android:id="@+id/angerIssueBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="140.5dp"
+                android:layout_marginStart="140.5dp"
                 android:layout_marginTop="20dp"
                 android:onClick="angerIssue"
-                android:text="Anger Issue"
+                android:text="@string/anger_issue"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.712"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.589" />
+                app:layout_constraintVertical_bias="0.589"
+                tools:ignore="UsingOnClickInXml" />
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
