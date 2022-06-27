@@ -17,7 +17,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <TextView
@@ -28,7 +28,7 @@
                 android:gravity="center"
                 android:text="@string/your_suitable_diet_plan_is_here"
                 android:textColor="#CF5B37"
-                android:textSize="30dp"
+                android:textSize="30sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -47,14 +47,14 @@
                     android:layout_marginTop="10dp"
                     android:text="@string/_1_gain_weight"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/if_you_want_to_gain_weight_"
                     android:layout_marginTop="10dp"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
                 <TextView
                     style="@style/TextAppearance.MaterialComponents.Subtitle1"
@@ -63,14 +63,14 @@
                     android:layout_marginTop="30dp"
                     android:text="@string/_2_gain_weight"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/the_most_important_thing_you_can_do_to_gain_weight_"
                     android:layout_marginTop="10dp"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
 
                 <TextView
@@ -80,14 +80,14 @@
                     android:layout_marginTop="30dp"
                     android:text="@string/_3_angry_gain_weight"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/the_single_most_important_nutrient_"
                     android:layout_marginTop="10dp"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
 
                 <TextView
@@ -97,14 +97,14 @@
                     android:layout_marginTop="30dp"
                     android:text="@string/_4_angry_gain_weight"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/eat_plenty_of_high_carb_and_high_fat_foods_"
                     android:layout_marginTop="10dp"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
 
                 <TextView
@@ -114,14 +114,14 @@
                     android:layout_marginTop="30dp"
                     android:text="@string/_5_angry_gain_weight"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/to_make_sure_that_the_excess_calories_go_to_your_muscles_i"
                     android:layout_marginTop="10dp"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
 
                 <TextView
@@ -131,14 +131,14 @@
                     android:layout_marginTop="30dp"
                     android:text="@string/_6_angry_gain_weight"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/combining_a_high_calorie_intake_with_heavy_strength_training_"
                     android:layout_marginTop="10dp"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
 
 

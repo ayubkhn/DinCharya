@@ -13,9 +13,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="608dp"
-        android:text="Hello,"
+        android:text="@string/hello"
         android:textColor="#040303"
-        android:textSize="30dp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.167"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -27,9 +27,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="568dp"
-        android:text="Ayub"
         android:textColor="#040303"
-        android:textSize="30dp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.163"
@@ -49,7 +48,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/welcomeTxt">
 
-        <fragment
+        <androidx.fragment.app.FragmentContainerView
             android:id="@+id/dietChartViewPager"
             android:name="com.khntech.dietchart.dietplans.DietPlanFragment"
             android:layout_width="336dp"
@@ -73,7 +72,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.906"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/ageTry1"

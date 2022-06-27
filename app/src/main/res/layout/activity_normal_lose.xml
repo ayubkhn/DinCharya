@@ -16,7 +16,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <TextView
@@ -27,7 +27,7 @@
                 android:gravity="center"
                 android:text="@string/your_suitable_diet_plan_is_here"
                 android:textColor="#CF5B37"
-                android:textSize="30dp"
+                android:textSize="30sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -46,14 +46,14 @@
                     android:layout_marginTop="10dp"
                     android:text="@string/_1_make_small_tweaks"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:text="@string/cut_down_on_the_packaged_and_processed_foods_"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
                 <TextView
                     style="@style/TextAppearance.MaterialComponents.Subtitle1"
@@ -62,14 +62,14 @@
                     android:layout_marginTop="30dp"
                     android:text="@string/_2_eat_seasonal_fruits"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:text="@string/eat_seasonal_fruits_from_the_local_market_"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
                 <TextView
                     style="@style/TextAppearance.MaterialComponents.Subtitle1"
@@ -78,14 +78,14 @@
                     android:layout_marginTop="30dp"
                     android:text="@string/_3_stir_fry_instead_of_deep_fry"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:text="@string/the_occasional_samosa_won_t_bust_your_weight_loss_"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
                 <TextView
                     style="@style/TextAppearance.MaterialComponents.Subtitle1"
@@ -94,14 +94,14 @@
                     android:layout_marginTop="30dp"
                     android:text="@string/_4_to_increase_the_basal_metabolic_rate"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:text="@string/eat_several_small_meals_a_day_"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
                 <TextView
                     style="@style/TextAppearance.MaterialComponents.Subtitle1"
@@ -110,14 +110,14 @@
                     android:layout_marginTop="30dp"
                     android:text="@string/_5_do_some_lightweight_training"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:text="@string/this_builds_muscle_tone_"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
                 <TextView
                     style="@style/TextAppearance.MaterialComponents.Subtitle1"
@@ -126,14 +126,14 @@
                     android:layout_marginTop="30dp"
                     android:text="@string/_6_sample_diet_chart_for_weight_loss"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:text="@string/_7am_lemon_juice_in_warm_water_"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
 
             </LinearLayout>

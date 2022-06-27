@@ -10,10 +10,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="Details"
+        android:text="@string/details"
         android:textAlignment="center"
         android:textColor="#CF5B37"
-        android:textSize="35dp"
+        android:textSize="35sp"
         android:textStyle="bold" />
 
     <LinearLayout
@@ -31,17 +31,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="What's Your Name?"
+            android:text="@string/what_s_your_name"
             android:textAlignment="center"
-            android:textSize="30dp" />
+            android:textSize="30sp" />
 
         <EditText
             android:id="@+id/registeredNameTxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:hint="Enter Your Name Here"
-            android:textAlignment="center" />
+            android:hint="@string/enter_your_name_here"
+            android:textAlignment="center"
+            android:importantForAutofill="no"
+            android:inputType="text" />
 
         <Button
             android:id="@+id/nameNextBtn"
@@ -49,7 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="5dp"
-            android:text="Next" />
+            android:text="@string/next" />
 
 
     </LinearLayout>
@@ -69,18 +71,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="Enter Your Age"
+            android:text="@string/enter_your_age"
             android:textAlignment="center"
-            android:textSize="30dp" />
+            android:textSize="30sp" />
 
         <EditText
             android:id="@+id/registeredAgeTxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:hint="00"
+            android:hint="@string/_00"
             android:inputType="number"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:importantForAutofill="no" />
 
         <Button
             android:id="@+id/ageNextBtn"
@@ -88,7 +91,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="5dp"
-            android:text="Next" />
+            android:text="@string/next" />
 
 
     </LinearLayout>
@@ -110,17 +113,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="Enter Your Gender"
+            android:text="@string/enter_your_gender"
             android:textAlignment="center"
-            android:textSize="30dp" />
+            android:textSize="30sp" />
 
         <EditText
             android:id="@+id/registeredGenderTxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:hint="Enter Your Gender Here (Optional)"
-            android:textAlignment="center" />
+            android:hint="@string/enter_your_gender_here_optional"
+            android:textAlignment="center"
+            android:importantForAutofill="no"
+            android:inputType="text" />
 
         <Button
             android:id="@+id/genderNextBtn"
@@ -128,7 +133,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="5dp"
-            android:text="Next" />
+            android:text="@string/next" />
 
     </LinearLayout>
 
@@ -148,18 +153,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="Enter Your Height"
+            android:text="@string/enter_your_height"
             android:textAlignment="center"
-            android:textSize="30dp" />
+            android:textSize="30sp" />
 
         <EditText
             android:id="@+id/registeredHeightTxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:hint="0.0"
+            android:hint="@string/_0_0"
             android:inputType="numberDecimal"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:importantForAutofill="no" />
 
         <Button
             android:id="@+id/heightNextBtn"
@@ -167,7 +173,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="5dp"
-            android:text="Next" />
+            android:text="@string/next" />
 
     </LinearLayout>
 
@@ -186,18 +192,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="Enter Your Weight"
+            android:text="@string/enter_your_weight"
             android:textAlignment="center"
-            android:textSize="30dp" />
+            android:textSize="30sp" />
 
         <EditText
             android:id="@+id/registeredWeightTxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:hint="00.0"
+            android:hint="@string/_00_0"
             android:inputType="numberDecimal"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:importantForAutofill="no" />
 
         <Button
             android:id="@+id/weightNextBtn"
@@ -205,7 +212,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="5dp"
-            android:text="Next" />
+            android:text="@string/next" />
 
     </LinearLayout>
 
@@ -224,7 +231,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="60dp"
-            android:text="Create Your Account Using Your Email And Create Password"
+            android:text="@string/create_your_account_using_your_email_and_create_password"
             android:textAlignment="center"
             android:textColor="#000" />
 
@@ -234,17 +241,19 @@
             android:layout_marginTop="50dp"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
-            android:hint="Enter Your Email"
-            android:textAlignment="center" />
+            android:hint="@string/enter_your_email"
+            android:textAlignment="center"
+            android:importantForAutofill="no" />
 
         <EditText
             android:id="@+id/createPasswordTxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Enter Your Password"
+            android:hint="@string/enter_your_password"
             android:inputType="textPassword"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:importantForAutofill="no" />
 
         <Button
             android:id="@+id/CreateBtn"
@@ -252,7 +261,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:gravity="center"
-            android:text="Create" />
+            android:text="@string/create" />
 
 
     </LinearLayout>

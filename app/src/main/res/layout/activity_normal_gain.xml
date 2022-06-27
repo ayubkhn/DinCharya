@@ -16,7 +16,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <TextView
@@ -27,7 +27,7 @@
                 android:gravity="center"
                 android:text="@string/your_suitable_diet_plan_is_here"
                 android:textColor="#CF5B37"
-                android:textSize="30dp"
+                android:textSize="30sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -46,14 +46,14 @@
                     android:layout_marginTop="10dp"
                     android:text="@string/day_1_lazy_gain"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:text="@string/breakfast_1_"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
                 <TextView
                     style="@style/TextAppearance.MaterialComponents.Subtitle1"
@@ -62,14 +62,14 @@
                     android:layout_marginTop="30dp"
                     android:text="@string/day_2_lazy_gain"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:text="@string/breakfast_1_paneer_vegetable_"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
                 <TextView
                     style="@style/TextAppearance.MaterialComponents.Subtitle1"
@@ -78,14 +78,14 @@
                     android:layout_marginTop="30dp"
                     android:text="@string/day_3_lazy_gain"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:text="@string/breakfast_2_panchmel_dal_dosa_"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
                 <TextView
                     style="@style/TextAppearance.MaterialComponents.Subtitle1"
@@ -94,14 +94,14 @@
                     android:layout_marginTop="30dp"
                     android:text="@string/day_4_lazy_gain"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:text="@string/breakfast_1_katori_"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
                 <TextView
                     style="@style/TextAppearance.MaterialComponents.Subtitle1"
@@ -110,14 +110,14 @@
                     android:layout_marginTop="30dp"
                     android:text="@string/day_5_lazy_gain"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:text="@string/breakfast_4_paneer_cheese_mix_veg_"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
                 <TextView
                     style="@style/TextAppearance.MaterialComponents.Subtitle1"
@@ -126,14 +126,14 @@
                     android:layout_marginTop="30dp"
                     android:text="@string/day_6_lazy_gain"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:text="@string/breakfast_1_katori_oats_porridge_"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
                 <TextView
                     style="@style/TextAppearance.MaterialComponents.Subtitle1"
@@ -142,14 +142,14 @@
                     android:layout_marginTop="30dp"
                     android:text="@string/day_7_lazy_gain"
                     android:textColor="#000"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:text="@string/breakfast_1_cucumber_rajgeera_"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
 
             </LinearLayout>

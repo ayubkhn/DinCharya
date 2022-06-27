@@ -16,7 +16,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <TextView
@@ -27,7 +27,7 @@
                 android:gravity="center"
                 android:text="@string/your_suitable_diet_plan_is_here"
                 android:textColor="#CF5B37"
-                android:textSize="30dp"
+                android:textSize="30sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -46,63 +46,63 @@
                     android:layout_marginTop="10dp"
                     android:text="@string/being_on_a_diet_"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
                     android:text="@string/_1_eating_breakfast_will_help_you_"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
                     android:text="@string/_2_eat_regular_meals_eating_at_regular_times_"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
                     android:text="@string/_3_eat_plenty_of_fruit_and_veg_"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
                     android:text="@string/_4_get_more_active_being_active_"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
                     android:text="@string/_5_drink_plenty_of_water_people_"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
                     android:text="@string/_6_eat_high_fibre_foods_foods_"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
                     android:text="@string/_7_read_food_labels_knowing_"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
                     android:text="@string/_8_beside_the_above_diet_keep_in_mind_the_following_points_"
-                    android:textSize="22dp" />
+                    android:textSize="22sp" />
 
 
             </LinearLayout>

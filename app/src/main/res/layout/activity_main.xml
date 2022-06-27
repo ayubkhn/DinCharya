@@ -13,6 +13,7 @@
         android:layout_height="120dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="80dp"
+        android:contentDescription="@string/todo"
         android:src="@drawable/ic_twotone_phone_android_24" />
 
     <LinearLayout
@@ -27,7 +28,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Phone Number"
+            android:text="@string/phone_number"
             android:textAlignment="center"
             android:textColor="#000" />
 
@@ -35,7 +36,7 @@
             style="@style/TextAppearance.MaterialComponents.Caption"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Please enter your number to continue"
+            android:text="@string/please_enter_your_number_to_continue"
             android:textAlignment="center"
             android:textColor="#777777" />
 
@@ -45,7 +46,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:background="#fff"
-            android:hint="+91xxxxxxxx"
+            android:hint="@string/_91xxxxxxxx"
+            android:importantForAutofill="no"
             android:inputType="phone"
             android:padding="10dp"
             android:textAlignment="center"
@@ -58,7 +60,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="5dp"
-            android:text="Continue" />
+            android:text="@string/_continue" />
 
 
     </LinearLayout>
@@ -75,7 +77,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Verification Code"
+            android:text="@string/verification_code"
             android:textAlignment="center"
             android:textColor="#000" />
 
@@ -84,7 +86,7 @@
             style="@style/TextAppearance.MaterialComponents.Caption"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Please enter the verification code we send to +91xxxxxxxx"
+            android:text="@string/please_enter_the_verification_code_we_send_to_91xxxxxxxx"
             android:textAlignment="center"
             android:textColor="#777777" />
 
@@ -93,8 +95,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:autofillHints="no"
             android:background="#fff"
-            android:hint="000000"
+            android:hint="@string/_000000"
             android:inputType="phone"
             android:padding="10dp"
             android:textAlignment="center"
@@ -117,7 +120,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="5dp"
-            android:text="Submit" />
+            android:text="@string/submit" />
 
 
     </LinearLayout>
